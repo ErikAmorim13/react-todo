@@ -1,0 +1,85 @@
+.container-login{
+    display: flex;
+    height: 37.9rem;
+    background-color: white;
+    color: black
+  }
+  
+  .header-loginApp{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5% 0 0 1%;
+    text-transform: uppercase;
+    border: solid black 2px;
+  }
+  
+  .header-loginApp h1{
+    font-weight: lighter;
+    margin-bottom: 20vh;
+  }
+  
+  .form-control, .header-loginApp{
+    width: 40rem;
+    height: 37.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-control .form{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vh;  
+  }
+  
+  .form-control .input{
+    height: 2.5rem;
+    width: 22rem;
+    margin-bottom: 2rem;
+    border-color: transparent transparent black transparent;
+    border-radius: 5px;
+    box-shadow: 2px rgb(216, 208, 208);
+    background-color: rgb(216, 208, 208);
+    outline: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .form .button{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 2.5rem 5rem;
+    width: 30vh;
+    height: 40px;
+    border-radius: 20vh;
+    background-color: black;
+    color: #FFFF;
+    cursor: pointer;
+  }
+  
+  .form span{
+    font-size: 25px;
+    margin-bottom: 15vh;
+    margin-left: 15vh;
+  }
+  
+  .image{
+    /* border: red 3px solid; */
+    height: 15rem;
+    width: 20rem;
+    margin-bottom: 20%;
+  }
+  
+  .header-login{
+    margin-bottom: 17vh;
+    width: 60vh;
+  }
+  
+  .form label{
+    font-weight: 500;
+  }
+
+  .icon-voltar{
+    cursor: pointer;
+  }

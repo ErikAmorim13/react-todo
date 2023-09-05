@@ -1,0 +1,202 @@
+.content {
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5%;
+    /* border: red solid 1px; */
+    font-size: 16px;
+    height: 100vh;
+    align-items: left;
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content,
+.info,
+.info-item,
+.container-sobre,
+.data,
+.tech,
+.sobre-mim,
+.item-title,
+.item-contact,
+.info-contact {
+    display: flex;
+}
+
+.title,
+.title-sobre {
+    font-size: 5vh;
+    text-transform: uppercase;
+}
+
+.subtitle,
+.info-item,
+.content .title {
+    margin-bottom: 8vh;
+}
+
+.content .title {
+    margin-top: 7%;
+}
+
+.info {
+    /* border: yellow solid 1px; */
+    justify-content: space-around;
+}
+
+.info-item {
+    /* border: red solid 1px; */
+    flex-direction: column;
+}
+
+.info-item:nth-child(3) {
+    margin-left: 2%;
+}
+
+.info-item img,
+.icon {
+    height: 10vh;
+    width: 10vh;
+    margin-left: 30%;
+}
+
+.info-item img,
+.perfil-image {
+    border-radius: 30vh;
+}
+
+.info-title {
+    font-size: 3vh;
+    font-weight: 700;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+button {
+    width: 25vh;
+    height: 8vh;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10vh;
+    cursor: pointer;
+}
+
+button,
+.container-sobre {
+    background-color: white;
+    color: black;
+}
+
+.data {
+    /* border: solid 3px red; */
+    flex-direction: column;
+    width: 100vh;
+    padding: 5%;
+}
+
+.hold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.perfil-image {
+    margin-bottom: 4%;
+    margin-left: 4%;
+    height: 40vh;
+    width: 40vh;
+}
+
+.hold:nth-child(1),
+.data span:nth-child(5),
+.title-sobre {
+    margin-bottom: 7%;
+}
+
+.habIcon {
+    margin: 5% 5% 0 0;
+    height: 7vh;
+}
+
+.data span,
+.tech {
+    margin-left: 7%;
+}
+
+.sobre-mim {
+    /* border: red solid 3px; */
+    width: 70%;
+    padding: 5%;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.contact-container {
+    background-color: #7C7575;
+    align-items: center;
+}
+
+.contact-title {
+    display: flex;
+    font-size: 20px;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 47%;
+    margin-left: 10%;
+}
+
+.info-contact {
+    height: 30vh;
+    justify-content: center;
+    /* border: solid 1px violet; */
+    width: 70%;
+    margin: auto;
+}
+
+.item-contact {
+    height: 20vh;
+    width: 100%;
+    /* border: black solid 1px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-title {
+    /* border: solid 1px red; */
+    height: 5vh;
+    align-items: center;
+    width: 40vh;
+}
+
+.span-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.email {
+    width: 8vh;
+    margin-right: 19%;
+}
+
+.linkedin {
+    margin-right: 7%;
+}
+
+.name-contact {
+    margin-right: 4%;
+}
+
+.footer {
+    /* border: 1px red solid; */
+    text-align: center;
+}
+
+.name-contact,
+.linkedin,
+.contact-container {
+    color: white;
+}
